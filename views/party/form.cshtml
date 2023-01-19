@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+    <form action="/Party/adddata">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+
+                <label for="phone">Phone</label>
+                <input type="text" name="phone" id="phone">
+
+                <label for="attend">Will Attend ?</label>
+
+                    <input type="radio" name="willattend" id="yes" value="yes">
+                    <label for="yes">yes</label>
+                    <input type="radio" name="willattend" id="no" value="no">
+                    <label for="no">No</label>
+
+                <input type="submit" value="Submit">
+    </form>
+    </body>
+</html>
